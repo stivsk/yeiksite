@@ -1,0 +1,469 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"has",
+				"hashLink"
+			],
+			[
+				"i",
+				"idSelector"
+			],
+			[
+				"mo",
+				"modal-header"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"ho",
+				"hovact"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"wit",
+				"white"
+			],
+			[
+				"rg",
+				"rgba	rgba"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"he",
+				"height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2256,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 653,
+				"line_ending": "Unix",
+				"name": "main.js"
+			}
+		},
+		{
+			"file": "/home/yeison/Documentos/spiwer3.0/index.html",
+			"settings":
+			{
+				"buffer_size": 22326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// F U N C T I O N S //\n\n@import 'nib'\n//@import url('http://fonts.googleapis.com/css?family=Cantarell:400,400italic');\n\nvendor-prefixes ?= webkit moz official\n\nbgcolor(n)\n	background n\n	&:hover\n		background lighten(n,8%)\n	&:active\n		background darken(n,8%)\nlink(n)\n	color n\n	&:hover\n		color lighten(n,10%)\n	&:active\n		color darken(n,10%)\n\ngris = #1a1a1a\nlinks = #e74c3c\nt-white = rgba(255, 255, 255, .1)\n\n// S T Y L E S //\n\n// A //\n\n// B //\nbody\n	background-color gris\n	background-image url('../img/background.gif')\n	background-origin content-box\n	background-position-x center\n	background-repeat no-repeat\n	font-family Cantarell\n	a\n		link(links)\n		text-decoration none\n\n.btns\n	font-size .7em\n	text-align center\n	.btn\n		bgcolor(t-white)\n		border 1px solid white\n		border-radius 3px \n		box-shadow 0px 3px 0px white\n		color white\n		display inline-block\n		font-style italic\n		letter-spacing 3px\n		margin 10px\n		padding 20px 25px\n		text-transform uppercase\n		width 70%\n		&-green\n			bgcolor(links)\n\n// C //	\n.container\n	margin 0 auto\n	position relative\n	width 90%\n\n.comments\n	margin 0 auto\n	text-align center\n	width 70%\n.creditos\n	background t-white\n	color white\n	font-size .7em\n	font-style italic\n	letter-spacing 1px\n	padding 10px 15px\n	position absolute\n	right 0\n	text-align right\n	text-transform uppercase\n	top 94.5%\n	&:after\n		position absolute\n		right 100%\n		content \"\"\n		border-right 11px solid t-white\n		border-top 35px solid transparent\n		bottom 0\n\n// D //\n// E //\n// F //\n// G //\n// H //\n// I //\n// J //\n// k //\n\n// L //\n.logo\n	background url('../img/logo.png') no-repeat center center\n	background-size contain\n	height 150px\n	margin 0 auto\n	margin-top 60px\n	width 150px\n	&:before\n		content ''\n		background white\n		height 3px\n		left 10%\n		position absolute\n		top 140px\n		width 20%\n	&:after\n		content ''\n		background white\n		height 3px\n		position absolute\n		right 10%\n		top 140px\n		width 20%\n\n// M //\n// N //\n// O //\n// P //\n// Q //\n// R //\n// S //\n\n// T //\n.top\n	&-10\n		margin-top 10px\n	&-20\n		margin-top 20px\n	&-30\n		margin-top 30px\n	&-40\n		margin-top 40px\n	&-50\n		margin-top 50px\n	&-60\n		margin-top 60px\n	&-70\n		margin-top 70px\n	&-80\n		margin-top 80px\n	&-90\n		margin-top 90px\n	&-100\n		margin-top 100px\n	&-110\n		margin-top 110px\n	&-120\n		margin-top 120px\n	&-130\n		margin-top 130px\n	&-140\n		margin-top 140px\n	&-150\n		margin-top 150px\n	&-160\n		margin-top 160px\n	&-170\n		margin-top 170px\n	&-180\n		margin-top 180px\n	&-190\n		margin-top 190px\n	&-200\n		margin-top 200px\n\n// U //\n// V //\n// X //\n// Y //\n// Z //",
+			"file": "css/main.styl",
+			"file_size": 2507,
+			"file_write_time": 1410008468000000,
+			"settings":
+			{
+				"buffer_size": 2507,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/yeison/yeiksite/css/main.css",
+		"/home/yeison/Documentos/spiwer3.0/js/main.js",
+		"/home/yeison/yeiksite/yeiksite.sublime-workspace",
+		"/opt/lampp/htdocs/spiwer3.0/new.txt",
+		"/opt/lampp/htdocs/spiwer3.0/ajax-test.html",
+		"/home/yeison/Documentos/spiwer3.0/css/main.css",
+		"/home/yeison/Documentos/spiwer3.0/ajax-test.html",
+		"/home/yeison/Documentos/spiwer3.0/css/main.styl",
+		"/home/yeison/Documentos/spiwer3.0/index.html",
+		"/opt/lampp/htdocs/spiwer3.0/view/lorem.spw",
+		"/opt/lampp/htdocs/spiwer3.0/other.txt",
+		"/opt/lampp/htdocs/spiwer3.0/lorem.txt",
+		"/opt/lampp/htdocs/spiwer3.0/view/other.spw",
+		"/opt/lampp/htdocs/spiwer3.0/js/main.js~",
+		"/home/yeison/Documentos/spiwer3.0/lorem.txt",
+		"/home/yeison/Documentos/sw8_v2.0/index.html",
+		"/home/yeison/Documentos/FELIPEGUIRREDR/index.html",
+		"/home/yeison/Documentos/yeison/css/main.css",
+		"/home/yeison/Documentos/sw8_v2.0/css/estilo.styl",
+		"/home/yeison/Documentos/sw8_v2.0/js/main.js",
+		"/home/yeison/Documentos/code-life/css/main.styl",
+		"/home/yeison/Documentos/code-life/index.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-family cantarell",
+			"font-family: 'Cantarell', sans-serif;",
+			" fade",
+			"\"></",
+			"(...),",
+			"#01b5ff",
+			"uppercase",
+			"info",
+			"default",
+			"key",
+			"@k",
+			"#00aced",
+			"hovact",
+			"15px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-family 'Cantarell'",
+			"",
+			"h-vink",
+			"default",
+			"info",
+			"h-vinc",
+			"link",
+			"bgcolor"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 565.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.js",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/yeison/Documentos/spiwer3.0/index.html",
+					"settings":
+					{
+						"buffer_size": 22326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/main.styl",
+					"settings":
+					{
+						"buffer_size": 2507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1926,
+								1926
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1839.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true
+}
