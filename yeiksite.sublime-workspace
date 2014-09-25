@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"gr",
+				"gris"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -18,10 +34,6 @@
 			[
 				"ma",
 				"margin"
-			],
-			[
-				"a",
-				"auto"
 			],
 			[
 				"fon",
@@ -108,10 +120,6 @@
 				"content"
 			],
 			[
-				"border",
-				"border-radius"
-			],
-			[
 				"wit",
 				"white"
 			],
@@ -135,35 +143,34 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2256,
+				"buffer_size": 2236,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/main.js",
+			"file": "styles/main.styl",
 			"settings":
 			{
-				"buffer_size": 653,
-				"line_ending": "Unix",
-				"name": "main.js"
-			}
-		},
-		{
-			"file": "/home/yeison/Documentos/spiwer3.0/index.html",
-			"settings":
-			{
-				"buffer_size": 22326,
+				"buffer_size": 3210,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "// F U N C T I O N S //\n\n@import 'nib'\n//@import url('http://fonts.googleapis.com/css?family=Cantarell:400,400italic');\n\nvendor-prefixes ?= webkit moz official\n\nbgcolor(n)\n	background n\n	&:hover\n		background lighten(n,8%)\n	&:active\n		background darken(n,8%)\nlink(n)\n	color n\n	&:hover\n		color lighten(n,10%)\n	&:active\n		color darken(n,10%)\n\ngris = #1a1a1a\nlinks = #e74c3c\nt-white = rgba(255, 255, 255, .1)\n\n// S T Y L E S //\n\n// A //\n\n// B //\nbody\n	background-color gris\n	background-image url('../img/background.gif')\n	background-origin content-box\n	background-position-x center\n	background-repeat no-repeat\n	font-family Cantarell\n	a\n		link(links)\n		text-decoration none\n\n.btns\n	font-size .7em\n	text-align center\n	.btn\n		bgcolor(t-white)\n		border 1px solid white\n		border-radius 3px \n		box-shadow 0px 3px 0px white\n		color white\n		display inline-block\n		font-style italic\n		letter-spacing 3px\n		margin 10px\n		padding 20px 25px\n		text-transform uppercase\n		width 70%\n		&-green\n			bgcolor(links)\n\n// C //	\n.container\n	margin 0 auto\n	position relative\n	width 90%\n\n.comments\n	margin 0 auto\n	text-align center\n	width 70%\n.creditos\n	background t-white\n	color white\n	font-size .7em\n	font-style italic\n	letter-spacing 1px\n	padding 10px 15px\n	position absolute\n	right 0\n	text-align right\n	text-transform uppercase\n	top 94.5%\n	&:after\n		position absolute\n		right 100%\n		content \"\"\n		border-right 11px solid t-white\n		border-top 35px solid transparent\n		bottom 0\n\n// D //\n// E //\n// F //\n// G //\n// H //\n// I //\n// J //\n// k //\n\n// L //\n.logo\n	background url('../img/logo.png') no-repeat center center\n	background-size contain\n	height 150px\n	margin 0 auto\n	margin-top 60px\n	width 150px\n	&:before\n		content ''\n		background white\n		height 3px\n		left 10%\n		position absolute\n		top 140px\n		width 20%\n	&:after\n		content ''\n		background white\n		height 3px\n		position absolute\n		right 10%\n		top 140px\n		width 20%\n\n// M //\n// N //\n// O //\n// P //\n// Q //\n// R //\n// S //\n\n// T //\n.top\n	&-10\n		margin-top 10px\n	&-20\n		margin-top 20px\n	&-30\n		margin-top 30px\n	&-40\n		margin-top 40px\n	&-50\n		margin-top 50px\n	&-60\n		margin-top 60px\n	&-70\n		margin-top 70px\n	&-80\n		margin-top 80px\n	&-90\n		margin-top 90px\n	&-100\n		margin-top 100px\n	&-110\n		margin-top 110px\n	&-120\n		margin-top 120px\n	&-130\n		margin-top 130px\n	&-140\n		margin-top 140px\n	&-150\n		margin-top 150px\n	&-160\n		margin-top 160px\n	&-170\n		margin-top 170px\n	&-180\n		margin-top 180px\n	&-190\n		margin-top 190px\n	&-200\n		margin-top 200px\n\n// U //\n// V //\n// X //\n// Y //\n// Z //",
-			"file": "css/main.styl",
-			"file_size": 2507,
-			"file_write_time": 1410008468000000,
+			"contents": "@import 'nib/vendor'\n\nvendor-prefixes = ms moz o webkit official\n\n@font-face\n	font-family  'lato' \n	src  url('../fonts/lato.eot') \n	src  url('../fonts/lato.eot?=btf') format(\"embedded-opentype\"),\n		 url('../fonts/lato.woff') format('woff'),\n		 url('../fonts/lato.ttf') format('truetype'),\n		 url('../fonts/lato.svg#Lato-Regular') format('svg') \n@font-face\n	font-family  'HelveticaNeueLight' \n	src  url('../fonts/HelveticaNeueLight.eot') \n	src  url('../fonts/HelveticaNeueLight.eot?=btf') format(\"embedded-opentype\"),\n		 url('../fonts/HelveticaNeueLight.woff') format('woff'),\n		 url('../fonts/HelveticaNeueLight.ttf') format('truetype'),\n		 url('../fonts/HelveticaNeueLight.svg#HelveticaNeue-Light') format('svg') \n@font-face\n	font-family  'HelveticaNeue' \n	src  url('../fonts/HelveticaNeue.eot') \n	src  url('../fonts/HelveticaNeue.eot?=btf') format(\"embedded-opentype\"),\n		 url('../fonts/HelveticaNeue.woff') format('woff'),\n		 url('../fonts/HelveticaNeue.ttf') format('truetype'),\n		 url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg') \n\nazul = #3498db\ngris = #ecf0f1\ngreen-sea = #16a085\nnegro = #191919\nrojo = #c0392b\nverde = #27ae60\n\nbgcolor(n)\n	background n\n	&:hover\n		background lighten(n,8%)\n	&:active\n		background darken(n,6%)\n\n*\n	border 0\n	margin 0\n	padding 0\n\nbody\n	background #fbf1cd url('../img/bg1.jpg') no-repeat center center fixed\n	background-size cover\n	color negro\n	font-family 'HelveticaNeue'\n	margin 0 auto\n	a \n		text-decoration none\n		color #FFF\n\n.container\n	display block\n	letter-spacing 1px\n	text-transform uppercase\n	width 100%\n	\n.modern\n	display block\n	margin 0 auto\n	margin-top 40px\n	overflow auto\n	width 1100px\n	.verde\n		bgcolor (verde) \n	.rojo\n		bgcolor (rojo)\n	.azul\n		bgcolor (azul)\n	.green-sea\n		bgcolor (green-sea)\n	.block-1,\n	.block-2,\n	.block-3\n		display none\n\nheader\n	margin 0 auto\n	margin-top 70px\n	padding 0px 16.5px\n	text-align right\n	width 1100px\n\n	h1\n		color negro\n		font-family: 'HelveticaNeueLight'\n		font-size 25px\n		font-weight normal\n		letter-spacing 5px\n		text-transform uppercase\n	\n.block-1\n	\n	display block\n	float left\n	width 540px\n	.col-lg\n		color #FFF\n		font-size 14px\n		height 101.5px\n		letter-spacing 1px\n		padding 15px 60px\n		text-align justify\n		text-transform none\n		width 420px\n	.col-md\n		font-size 12px\n		text-overflow ellipsis\n\n.block-2\n	display block\n	float left\n	font-size 12px\n	margin-left 10px\n	width 265px\n.col-tl\n	height 273px\n	margin 0px\n	& img\n		height 273px\n		width 265px\n\n.block-3\n	display block\n	float left\n	font-size 12px\n	margin-left 20px\n	width 264px\n\n	.col-md-2\n		margin-top 10px\n	#hiden-lg\n		display none\n	p\n		color #FFF\n\n.col-md\n	float left\n	height 132.5px\n	margin-top 10px\n	text-align center\n	width 265px\n	& p\n		margin-top 10px\n\n.col-md-2\n	float  left \n	height  132.5px \n	margin-top 10px\n	text-align  center\n	width 265px\n	& p\n		margin-top 10px\n\n.col-sm\n	float left\n	height 131.7px\n	text-align center\n	width 127px\n	& p\n		margin-top 10px\n.m-top\n	margin-top 10px\n.m-bottom-2\n	margin-bottom 7px\n.m-left\n	margin-left 10px\n	float left\n.m-right\n	margin-right 10px\n.white-popup\n	background #FFF\n	font-size 14px\n	letter-spacing 1px\n	margin 20px auto\n	max-width 80%\n	overflow auto\n	padding 20px\n	position relative\n	text-align justify\n	width auto\n	a\n		color verde\n	p\n		margin 0px 10px 20px 10px\n	ol \n		margin 0px 10px 40px 35px\n		li \n			margin-bottom: 20px;\n.title\n	background green-sea\n	color white\n	margin-bottom 20px\n	padding 20px\n	text-align center\n	width auto\n	h1\n		font-size 28px\n		font-weight lighter\n		text-transform capitalize\n.menu\n	height auto\n	margin 0 auto\n	max-width 60%\n	.menu-item\n		display block\n		color #FFF\n		font-size 15px\n		letter-spacing 1px\n		margin-bottom 10px\n		padding 15px\n		text-align center\n		text-transform uppercase\n.video-container \n	height 0\n	overflow hidden\n	padding-bottom 56.25%\n	padding-top 30px\n	position relative\n	iframe,	video,	object,	embed \n		position absolute\n		top 0\n		left 0\n		width 100%\n		height 100%\n.info-block\n	margin-top 40px\n	p\n		padding 0px 0px 15px 0px !important\n.rest \n	float left\n	height auto\n	margin 0px 15px 10px 0px\n	width 40%\n	& img \n		width 100%\n		height auto\n.rows\n	text-align center\n	width auto\n	.row\n		display inline-block\n		margin 10px\n		width 30%\n		img\n			border-radius 2px\n			width 100%\nfigure\n	figcaption\n		font-weight bold\n		margin-top 10px\n		text-align left\n		text-transform capitalize\n\ndl \n	margin 0px 10px 40px 10px\n	dt \n		font-weight bold\n	dd \n		display block\n		margin-bottom 20px\n    \nfooter\n	color negro\n	font-size 13px\n	letter-spacing 3px\n	margin-top 35px\n	text-align center\n	text-transform uppercase\n	width 100%\n",
+			"file": "/home/yeison/Documentos/- WEB -/sw8_v2.0/css/estilo.styl",
+			"file_size": 4843,
+			"file_write_time": 1410464596000000,
 			"settings":
 			{
-				"buffer_size": 2507,
+				"buffer_size": 4564,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 654,
 				"line_ending": "Unix"
 			}
 		}
@@ -212,6 +219,13 @@
 	},
 	"file_history":
 	[
+		"/home/yeison/Documentos/spiwer3.0/css/main.styl",
+		"/home/yeison/Documentos/- WEB -/sw8_v2.0/css/estilo.styl",
+		"/home/yeison/yeiksite/scripts/main.js",
+		"/home/yeison/yeiksite/js/main.js",
+		"/home/yeison/Documentos/spiwer3.0/index.html",
+		"/home/yeison/yeiksite/css/main.styl",
+		"/home/yeison/yeiksite/index.html",
 		"/home/yeison/yeiksite/css/main.css",
 		"/home/yeison/Documentos/spiwer3.0/js/main.js",
 		"/home/yeison/yeiksite/yeiksite.sublime-workspace",
@@ -219,8 +233,6 @@
 		"/opt/lampp/htdocs/spiwer3.0/ajax-test.html",
 		"/home/yeison/Documentos/spiwer3.0/css/main.css",
 		"/home/yeison/Documentos/spiwer3.0/ajax-test.html",
-		"/home/yeison/Documentos/spiwer3.0/css/main.styl",
-		"/home/yeison/Documentos/spiwer3.0/index.html",
 		"/opt/lampp/htdocs/spiwer3.0/view/lorem.spw",
 		"/opt/lampp/htdocs/spiwer3.0/other.txt",
 		"/opt/lampp/htdocs/spiwer3.0/lorem.txt",
@@ -251,6 +263,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"styles",
 			"font-family cantarell",
 			"font-family: 'Cantarell', sans-serif;",
 			" fade",
@@ -298,15 +311,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2256,
+						"buffer_size": 2236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								560,
-								560
+								0,
+								0
 							]
 						],
 						"settings":
@@ -315,57 +328,57 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 565.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/main.js",
-					"settings":
-					{
-						"buffer_size": 653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								373
-							]
-						],
-						"settings":
-						{
-							"auto_name": "main.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/home/yeison/Documentos/spiwer3.0/index.html",
+					"buffer": 1,
+					"file": "styles/main.styl",
 					"settings":
 					{
-						"buffer_size": 22326,
+						"buffer_size": 3210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								992,
+								992
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/yeison/Documentos/- WEB -/sw8_v2.0/css/estilo.styl",
+					"settings":
+					{
+						"buffer_size": 4564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -376,27 +389,26 @@
 				},
 				{
 					"buffer": 3,
-					"file": "css/main.styl",
+					"file": "scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 2507,
+						"buffer_size": 654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1926,
-								1926
+								654,
+								654
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1839.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
