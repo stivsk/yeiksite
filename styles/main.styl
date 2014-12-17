@@ -1,3 +1,7 @@
+@import 'nib'
+
+vendor-prefixes ?= webkit moz official
+
 @font-face
 	font-family: "Cantarell";
 	src: url('../fonts/cantarell/cantarell.eot');
@@ -14,11 +18,6 @@
 		 url("../fonts/cantarell/cantarell-bold.svg#Cantarell-Bold") format("svg");
 
 // F U N C T I O N S //
-
-@import 'nib'
-//@import url('http://fonts.googleapis.com/css?family=Cantarell:400,400italic');
-
-vendor-prefixes ?= webkit moz official
 
 bgcolor(n)
 	background n
@@ -37,7 +36,21 @@ gris = #1a1a1a
 links = #e74c3c
 t-white = rgba(255, 255, 255, .1)
 
+*::-webkit-scrollbar
+	width 6px
+	background-color #CCC
+	&-track
+		background-color transparent
+	&-thumb
+		background-color gris
+		border-radius 12px
+
 // S T Y L E S //
+
+*
+	border 0
+	margin 0
+	padding 0
 
 // A //
 
@@ -46,10 +59,10 @@ body
 	background-color gris
 	background-image url('../img/background.gif')
 	background-origin content-box
-	background-position-x center
+	background-position center
 	background-repeat no-repeat
 	font-family 'Cantarell'
-	overflow hidden
+	text-rendering optimizeLegibility
 	a
 		link(links)
 		text-decoration none
@@ -72,17 +85,65 @@ body
 		width 70%
 		&-green
 			bgcolor(links)
+			
+.bottom
+	&-10
+		margin-bottom 10px
+	&-20
+		margin-bottom 20px
+	&-30
+		margin-bottom 30px
+	&-40
+		margin-bottom 40px
+	&-50
+		margin-bottom 50px
+	&-60
+		margin-bottom 60px
+	&-70
+		margin-bottom 70px
+	&-80
+		margin-bottom 80px
+	&-90
+		margin-bottom 90px
+	&-100
+		margin-bottom 100px
+	&-110
+		margin-bottom 110px
+	&-120
+		margin-bottom 120px
+	&-130
+		margin-bottom 130px
+	&-140
+		margin-bottom 140px
+	&-150
+		margin-bottom 150px
+	&-160
+		margin-bottom 160px
+	&-170
+		margin-bottom 170px
+	&-180
+		margin-bottom 180px
+	&-190
+		margin-bottom 190px
+	&-200
+		margin-bottom 200px
 
 // C //	
 .container
 	margin 0 auto
 	position relative
 	width 90%
+	&-r
+		margin 0 auto
+		position relative
+		max-width 1000px
 
 .comments
+	background white
 	margin 0 auto
+	padding 27px
 	text-align center
-	width 70%
+
 .creditos
 	background t-white
 	color white
@@ -118,7 +179,6 @@ body
 	background-size contain
 	height 150px
 	margin 0 auto
-	margin-top 60px
 	width 150px
 	&:before
 		content ''
@@ -137,6 +197,7 @@ body
 		top 140px
 		width 20%
 
+
 // M //
 // N //
 // O //
@@ -146,8 +207,18 @@ body
 // P //
 // Q //
 // R //
-// S //
+.rest
+	background url('../img/1.png') no-repeat center center fixed
+	-webkit-background-size cover
+	-moz-background-size cover
+	-o-background-size cover
+	background-size cover
+	background-position-x center
+	background-position-y middle
+	background-repeat no-repeat
+	overflow auto
 
+// S //
 // T //
 .top
 	&-10
@@ -193,9 +264,36 @@ body
 
 // U //
 // V //
+.vid
+	background #fcfcfc
+	left 0
+	padding 10px
+	position relative
+	right 0
+.video-container
+	height 0
+	overflow hidden
+	padding-bottom 56.25%
+	position relative
+	iframe, video, object, embed
+		position absolute
+		top 0
+		left 0
+		width 100%
+		height 100%
+.v-title
+	background #fCfCfC
+	padding 10px
+	h2
+		border 1px solid
+		font-weight normal
+		letter-spacing 10px
+		padding 20px
+		text-align center
+		text-transform uppercase
+		font-style italic
+
 // W //
-
-
 // X //
 // Y //
 // Z //
