@@ -175,7 +175,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2294,
+				"buffer_size": 2295,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +183,7 @@
 			"file": "start.html",
 			"settings":
 			{
-				"buffer_size": 2291,
+				"buffer_size": 2292,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +191,7 @@
 			"file": "styles/main.styl",
 			"settings":
 			{
-				"buffer_size": 4301,
+				"buffer_size": 4418,
 				"line_ending": "Windows"
 			}
 		},
@@ -345,15 +345,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2294,
+						"buffer_size": 2295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								991,
-								905
+								1522,
+								1522
 							]
 						],
 						"settings":
@@ -362,7 +362,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 468.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -372,15 +372,15 @@
 					"file": "start.html",
 					"settings":
 					{
-						"buffer_size": 2291,
+						"buffer_size": 2292,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1556,
-								1556
+								1522,
+								1522
 							]
 						],
 						"settings":
@@ -390,7 +390,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 576.0,
+						"translation.y": 297.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -400,15 +400,15 @@
 					"file": "styles/main.styl",
 					"settings":
 					{
-						"buffer_size": 4301,
+						"buffer_size": 4418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2898,
-								2898
+								1351,
+								1351
 							]
 						],
 						"settings":
@@ -417,7 +417,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2718.0,
+						"translation.y": 684.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -434,8 +434,8 @@
 						"selection":
 						[
 							[
-								650,
-								650
+								649,
+								649
 							]
 						],
 						"settings":
