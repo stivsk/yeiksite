@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	$('.blur').blurjs({
 	    source: 'body',
-	    radius: 10
+	    radius: 40
 	});
 });
 

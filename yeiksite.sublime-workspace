@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"i",
 				"italic"
 			],
@@ -32,10 +60,6 @@
 				"contain"
 			],
 			[
-				"bor",
-				"border"
-			],
-			[
 				"n",
 				"none"
 			],
@@ -48,10 +72,6 @@
 				"border"
 			],
 			[
-				"a",
-				"absolute"
-			],
-			[
 				"link",
 				"links"
 			],
@@ -60,16 +80,8 @@
 				"gris"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"mar",
 				"margin"
-			],
-			[
-				"font",
-				"font-style"
 			],
 			[
 				"ma",
@@ -163,18 +175,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2307,
+				"buffer_size": 2294,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n\n<!-- M E T A S -->\n	<meta charset=\"UTF-8\">\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\">\n	<meta name=\"keywords\" content=\"\">\n	<meta name=\"description\" content=\"\">\n<!-- E N D  M E T A S -->\n\n\n<!-- O G P  M E T A S -->\n	<meta property=\"og:title\" content=\"- YEIK SITE.COM -\" />\n	<meta property=\"og:type\" content=\"website\" />\n	<meta property=\"og:url\" content=\"\" />\n	<meta property=\"og:image\" content=\"\" />\n	<meta property=\"og:description\" content=\"\">\n<!-- E N D  O G P  M E T A S -->\n\n\n<!-- S T Y L E S -->\n	<link href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"styles/main.css\">\n	<!--[if lt IE 9]>\n        <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n      	<script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n<!-- E N D  S T Y L E S -->\n\n\n<!-- F A V I C O N -->\n	<link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"img/fav/icon-144.png\">\n	<link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"img/fav/icon-114.png\">\n	<link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"img/fav/icon-72.png\">\n	<link rel=\"apple-touch-icon-precomposed\" href=\"img/fav/icon-57.png\">\n	<link rel=\"shortcut icon\" href=\"img/fav/favicon.png\">\n	<link rel=\"shortcut icon\" href=\"img/fav/favicon.ico\">\n<!-- E N D  F A V I C O N -->\n\n	<title>YEIK SITE | PROGRAM DIFFERENT</title>\n\n</head>\n<body class=\"rest blur\">\n\n\n<div class=\"container-r\">\n\n<div class=\"vid top-60\">\n	<div class=\"v-title bottom-10\">\n		<h2>curso de javascript</h2>\n	</div>	\n	<div class=\"video-container\">\n		<iframe width=\"560\" height=\"315\" src=\"//www.youtube.com/embed/njGecjvUoLo\" frameborder=\"0\" allowfullscreen></iframe>\n	</div>\n</div>\n\n\n</div>\n\n<!-- C O M E N T A R I O S -->\n<div class=\"comments top-60\"></div>\n<!-- E N D  C O M E N T A R I O S -->\n<div class=\"top-60\"></div>\n\n<!-- S C R I P T S -->\n	<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js\"></script>\n	<script src=\"scripts/blur.min.js\"></script>\n	<script src=\"scripts/main.js\"></script>\n<!-- E N D  S C R I P T S -->\n	\n</body>\n</html>",
 			"file": "start.html",
-			"file_size": 2334,
-			"file_write_time": 130627421066307445,
 			"settings":
 			{
-				"buffer_size": 2242,
+				"buffer_size": 2291,
 				"line_ending": "Windows"
 			}
 		},
@@ -182,7 +191,7 @@
 			"file": "styles/main.styl",
 			"settings":
 			{
-				"buffer_size": 4796,
+				"buffer_size": 4301,
 				"line_ending": "Windows"
 			}
 		},
@@ -336,15 +345,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2307,
+						"buffer_size": 2294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1783,
-								1783
+								991,
+								905
 							]
 						],
 						"settings":
@@ -353,7 +362,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 99.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -363,15 +372,15 @@
 					"file": "start.html",
 					"settings":
 					{
-						"buffer_size": 2242,
+						"buffer_size": 2291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1656,
-								1656
+								1556,
+								1556
 							]
 						],
 						"settings":
@@ -381,7 +390,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 711.0,
+						"translation.y": 576.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -391,15 +400,15 @@
 					"file": "styles/main.styl",
 					"settings":
 					{
-						"buffer_size": 4796,
+						"buffer_size": 4301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4763,
-								4763
+								2898,
+								2898
 							]
 						],
 						"settings":
@@ -408,7 +417,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4769.0,
+						"translation.y": 2718.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -425,8 +434,8 @@
 						"selection":
 						[
 							[
-								71,
-								71
+								650,
+								650
 							]
 						],
 						"settings":

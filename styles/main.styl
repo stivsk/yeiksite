@@ -33,7 +33,8 @@ link(n)
 		color darken(n,10%)
 
 gris = #1a1a1a
-links = #e74c3c
+links = #3CE7BD
+dark-link = #43cdab
 t-white = rgba(255, 255, 255, .1)
 
 *::-webkit-scrollbar
@@ -56,11 +57,11 @@ t-white = rgba(255, 255, 255, .1)
 
 // B //
 body
-	background-color gris
-	background-image url('../img/background.gif')
-	background-origin content-box
-	background-position center
-	background-repeat no-repeat
+	background url('../img/1.jpg') no-repeat center center fixed
+	-webkit-background-size cover
+	-moz-background-size cover
+	-o-background-size cover
+	background-size cover
 	font-family 'Cantarell'
 	text-rendering optimizeLegibility
 	a
@@ -71,20 +72,17 @@ body
 	font-size .7em
 	text-align center
 	.btn
-		bgcolor(t-white)
-		border 1px solid white
-		border-radius 3px 
-		box-shadow 0px 3px 0px white
 		color white
 		display inline-block
 		font-style italic
 		letter-spacing 3px
-		margin 10px
 		padding 20px 25px
 		text-transform uppercase
 		width 70%
 		&-green
 			bgcolor(links)
+			border none
+			box-shadow 0px 5px 0px dark-link
 			
 .bottom
 	&-10
@@ -127,6 +125,13 @@ body
 		margin-bottom 190px
 	&-200
 		margin-bottom 200px
+		
+.blur
+	-webkit-background-size cover
+	-moz-background-size cover
+	-o-background-size cover
+	background-size cover
+
 
 // C //	
 .container
@@ -144,29 +149,19 @@ body
 	padding 27px
 	text-align center
 
-.creditos
-	background t-white
-	color white
-	font-size .7em
-	font-style italic
-	letter-spacing 1px
-	padding 10px 15px
-	position absolute
-	right 0
-	text-align right
-	text-transform uppercase
-	top 94.5%
-	&:after
-		position absolute
-		right 100%
-		content ""
-		border-right 11px solid t-white
-		border-top 35px solid transparent
-		bottom 0
 
 // D //
 // E //
 // F //
+footer
+	color white
+	font-size .8em
+	letter-spacing 10px
+	padding 80px
+	text-align center
+	text-transform uppercase
+	text-shadow 1px 1px 0px #333
+
 // G //
 // H //
 // I //
@@ -177,9 +172,9 @@ body
 .logo
 	background url('../img/logo.png') no-repeat center center
 	background-size contain
-	height 150px
+	height 170px
 	margin 0 auto
-	width 150px
+	width auto
 	&:before
 		content ''
 		background white
@@ -187,7 +182,7 @@ body
 		left 10%
 		position absolute
 		top 140px
-		width 20%
+		width 15%
 	&:after
 		content ''
 		background white
@@ -195,7 +190,7 @@ body
 		position absolute
 		right 10%
 		top 140px
-		width 20%
+		width 15%
 
 
 // M //
@@ -208,14 +203,6 @@ body
 // Q //
 // R //
 .rest
-	background url('../img/1.png') no-repeat center center fixed
-	-webkit-background-size cover
-	-moz-background-size cover
-	-o-background-size cover
-	background-size cover
-	background-position-x center
-	background-position-y middle
-	background-repeat no-repeat
 	overflow auto
 
 // S //
@@ -265,7 +252,7 @@ body
 // U //
 // V //
 .vid
-	background #fcfcfc
+	background white
 	left 0
 	padding 10px
 	position relative
@@ -282,7 +269,6 @@ body
 		width 100%
 		height 100%
 .v-title
-	background #fCfCfC
 	h2
 		font-weight normal
 		letter-spacing 15px
@@ -291,6 +277,11 @@ body
 		text-transform uppercase
 
 // W //
+.welcome_logo
+	padding 20px
+	position relative
+	top 0
+
 // X //
 // Y //
 // Z //
