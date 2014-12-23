@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"bac",
+				"background"
+			],
+			[
 				"pa",
 				"padding-bottom"
 			],
@@ -183,7 +187,7 @@
 			"file": "start.html",
 			"settings":
 			{
-				"buffer_size": 2292,
+				"buffer_size": 2109,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +195,7 @@
 			"file": "styles/main.styl",
 			"settings":
 			{
-				"buffer_size": 4418,
+				"buffer_size": 4460,
 				"line_ending": "Windows"
 			}
 		},
@@ -337,7 +341,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -372,15 +376,15 @@
 					"file": "start.html",
 					"settings":
 					{
-						"buffer_size": 2292,
+						"buffer_size": 2109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1522,
-								1522
+								1843,
+								1843
 							]
 						],
 						"settings":
@@ -390,7 +394,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 297.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -400,15 +404,15 @@
 					"file": "styles/main.styl",
 					"settings":
 					{
-						"buffer_size": 4418,
+						"buffer_size": 4460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1351,
-								1351
+								1234,
+								1234
 							]
 						],
 						"settings":
@@ -417,7 +421,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 684.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

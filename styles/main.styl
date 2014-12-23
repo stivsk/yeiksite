@@ -22,9 +22,9 @@ vendor-prefixes ?= webkit moz official
 bgcolor(n)
 	background n
 	&:hover
-		background lighten(n,8%)
+		background lighten(n,10%)
 	&:active
-		background darken(n,8%)
+		background darken(n,10%)
 link(n)
 	color n
 	&:hover
@@ -39,12 +39,11 @@ t-white = rgba(255, 255, 255, .1)
 
 *::-webkit-scrollbar
 	width 6px
-	background-color #CCC
+	background-color #FCFCFC
 	&-track
 		background-color transparent
 	&-thumb
-		background-color gris
-		border-radius 12px
+		background-color links
 
 // S T Y L E S //
 
@@ -127,6 +126,8 @@ body
 		margin-bottom 200px
 		
 .blur
+	background-attachment fixed
+	background-position center
 	-webkit-background-size cover
 	-moz-background-size cover
 	-o-background-size cover
