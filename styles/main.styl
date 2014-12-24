@@ -35,7 +35,9 @@ link(n)
 gris = #1a1a1a
 links = #3CE7BD
 dark-link = #43cdab
+verde = #5cbf9c
 t-white = rgba(255, 255, 255, .1)
+rojo = #FF4E50
 
 *::-webkit-scrollbar
 	width 6px
@@ -73,8 +75,7 @@ body
 	.btn
 		color white
 		display inline-block
-		font-style italic
-		letter-spacing 3px
+		letter-spacing 5px
 		padding 20px 25px
 		text-transform uppercase
 		width 70%
@@ -82,6 +83,7 @@ body
 			bgcolor(links)
 			border none
 			box-shadow 0px 5px 0px dark-link
+		
 			
 .bottom
 	&-10
@@ -150,6 +152,14 @@ body
 	padding 27px
 	text-align center
 
+.c-title
+	color white
+	font-size .7em
+	font-weight normal
+	letter-spacing 15px
+	padding 60px
+	text-align center
+	text-transform uppercase
 
 // D //
 // E //
@@ -170,6 +180,12 @@ footer
 // k //
 
 // L //
+.linkToCourse
+	letter-spacing 10px
+	position relative
+	text-align center
+	text-transform uppercase
+
 .logo
 	background url('../img/logo.png') no-repeat center center
 	background-size contain
@@ -270,7 +286,7 @@ footer
 		width 100%
 		height 100%
 .v-title
-	h2
+	h2,h3
 		font-weight normal
 		letter-spacing 15px
 		padding 20px
