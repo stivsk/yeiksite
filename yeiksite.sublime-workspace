@@ -4,16 +4,36 @@
 		"selected_items":
 		[
 			[
-				"bac",
-				"background"
+				"a",
+				"arr"
+			],
+			[
+				"co",
+				"courses"
+			],
+			[
+				"get",
+				"getElementsByTagName"
 			],
 			[
 				"pa",
-				"padding-bottom"
+				"padding"
 			],
 			[
-				"a",
-				"auto"
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"bac",
+				"background"
 			],
 			[
 				"bor",
@@ -28,10 +48,6 @@
 				"font-size"
 			],
 			[
-				"font",
-				"font-weight"
-			],
-			[
 				"text",
 				"text-align"
 			],
@@ -42,10 +58,6 @@
 			[
 				"fo",
 				"font-style"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"t",
@@ -90,10 +102,6 @@
 			[
 				"ma",
 				"margin"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"whi",
@@ -187,7 +195,15 @@
 			"file": "start.html",
 			"settings":
 			{
-				"buffer_size": 2109,
+				"buffer_size": 2158,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"vid top-60\">\n	<div class=\"v-title bottom-10\">\n		<h3>curso de javascript</h3>\n	</div>	\n</div>",
+			"settings":
+			{
+				"buffer_size": 104,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,7 +211,7 @@
 			"file": "styles/main.styl",
 			"settings":
 			{
-				"buffer_size": 4460,
+				"buffer_size": 4715,
 				"line_ending": "Windows"
 			}
 		},
@@ -203,7 +219,7 @@
 			"file": "scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 675,
+				"buffer_size": 1533,
 				"line_ending": "Windows"
 			}
 		}
@@ -341,7 +357,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -366,7 +382,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -376,15 +392,15 @@
 					"file": "start.html",
 					"settings":
 					{
-						"buffer_size": 2109,
+						"buffer_size": 2158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1843,
-								1843
+								1645,
+								1645
 							]
 						],
 						"settings":
@@ -394,25 +410,50 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 675.0,
+						"translation.y": 621.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "styles/main.styl",
 					"settings":
 					{
-						"buffer_size": 4460,
+						"buffer_size": 104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1234,
-								1234
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "styles/main.styl",
+					"settings":
+					{
+						"buffer_size": 4715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1696,
+								1696
 							]
 						],
 						"settings":
@@ -421,25 +462,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 1143.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 675,
+						"buffer_size": 1533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								649,
-								649
+								805,
+								805
 							]
 						],
 						"settings":
@@ -449,7 +490,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 142.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
