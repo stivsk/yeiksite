@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"t",
+				"t-black"
+			],
+			[
 				"conta",
 				"contain"
 			],
@@ -74,10 +78,6 @@
 			[
 				"fo",
 				"font-style"
-			],
-			[
-				"t",
-				"transparent"
 			],
 			[
 				"tra",
@@ -211,31 +211,7 @@
 			"file": "start.html",
 			"settings":
 			{
-				"buffer_size": 2068,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<div class=\"vid top-60\">\n	<div class=\"v-title bottom-10\">\n		<h3>curso de javascript</h3>\n	</div>	\n</div>",
-			"settings":
-			{
-				"buffer_size": 104,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "styles/main.styl",
-			"settings":
-			{
-				"buffer_size": 4394,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/main.js",
-			"settings":
-			{
-				"buffer_size": 1331,
+				"buffer_size": 2067,
 				"line_ending": "Windows"
 			}
 		},
@@ -243,9 +219,33 @@
 			"file": "cursos/javaScript.html",
 			"settings":
 			{
-				"buffer_size": 2297,
+				"buffer_size": 2276,
 				"line_ending": "Windows",
 				"name": "javaScript.html"
+			}
+		},
+		{
+			"file": "styles/main.styl",
+			"settings":
+			{
+				"buffer_size": 4497,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 1334,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cursos/main.js",
+			"settings":
+			{
+				"buffer_size": 659,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -382,7 +382,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -407,7 +407,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 909.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -417,15 +417,15 @@
 					"file": "start.html",
 					"settings":
 					{
-						"buffer_size": 2068,
+						"buffer_size": 2067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1979,
-								1929
+								1597,
+								1597
 							]
 						],
 						"settings":
@@ -435,32 +435,35 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "cursos/javaScript.html",
 					"settings":
 					{
-						"buffer_size": 104,
+						"buffer_size": 2276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								0
+								1655,
+								1655
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"auto_name": "javaScript.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 801.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -470,15 +473,15 @@
 					"file": "styles/main.styl",
 					"settings":
 					{
-						"buffer_size": 4394,
+						"buffer_size": 4497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1284,
-								1284
+								4112,
+								4112
 							]
 						],
 						"settings":
@@ -487,7 +490,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 4572.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -497,15 +500,15 @@
 					"file": "scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 1331,
+						"buffer_size": 1334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								84,
-								84
+								92,
+								92
 							]
 						],
 						"settings":
@@ -522,28 +525,26 @@
 				},
 				{
 					"buffer": 5,
-					"file": "cursos/javaScript.html",
+					"file": "cursos/main.js",
 					"settings":
 					{
-						"buffer_size": 2297,
+						"buffer_size": 659,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2168,
-								2168
+								92,
+								92
 							]
 						],
 						"settings":
 						{
-							"auto_name": "javaScript.html",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 953.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
