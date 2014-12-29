@@ -23,7 +23,7 @@ var cursos = ['javaScript','html5', 'ruby on rails','java','perl', 'php','ruby',
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
-	$('.comments').html('<div id="disqus_thread"></div> <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>');
+    $('.comments').html('<div id="disqus_thread"></div> <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>');
 
     
 });
