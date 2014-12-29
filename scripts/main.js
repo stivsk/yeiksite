@@ -1,10 +1,6 @@
 $(document).ready(function(){
 
- $.backstretch([
-      "http://dl.dropbox.com/u/515046/www/outside.jpg"
-    , "http://dl.dropbox.com/u/515046/www/garfield-interior.jpg"
-    , "http://dl.dropbox.com/u/515046/www/cheers.jpg"
-  ], {duration: 3000, fade: 750});
+$.backstretch("http://stivsk.github.io/yeiksite/img/2.jpg");
 
 ////////////////////////////////////////////////////////////////////////////////
 var cursos = ['javaScript','html5', 'ruby on rails','java','perl', 'php','ruby','Django','NodeJs'];
