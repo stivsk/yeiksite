@@ -1,35 +1,5 @@
 $(document).ready(function(){
 
-////////////////////////////////////////////////////////////////////////////////
-    var cursos = [
-        {
-            'name':'javaScript',
-            'loc':'#coursesWeb'
-        },
-        {
-           'name':'html5',
-           'loc':'#coursesWeb'
-        },
-        {
-            'name':'ruby on rails',
-            'loc':'#courseDesktop'
-        }
-    ];
-
-
-    function displayCourses(arr){
-        var out = "";
-        var i;
-        for(i = 0; i < arr.length; i++){
-            out += '<div class="linkToCourse top-10">' +
-            '<a class="btn btn-green" href="cursos/' + arr[i].name.replace(/\s/g,'_') + '.html' + '">' + arr[i].name +'</a></div>';
-        }
-        document.getElementById('coursesWeb').innerHTML = out;
-    }
-
-    displayCourses(cursos);
-////////////////////////////////////////////////////////////////////////////////
-
     var disqus_shortname = 'yeiksite2'; 
      
    (function() {
@@ -45,6 +15,38 @@ $(document).ready(function(){
 	    source: 'body',
 	    radius: 40
 	});
+
+////////////////////////////////////////////////////////////////////////////////
+var cursos = ['javaScript','html5', 'ruby on rails','java','perl', 'php','ruby','Django','NodeJs'];
+
+
+    function displayCourses(arr){
+        var out = "";
+        var i;
+        for(i = 0; i < arr.length; i++){
+            out += '<div class="linkToCourse top-10">' +
+            '<a class="btn btn-green" href="cursos/' + arr[i].replace(/\s/g,'_') + '.html' + '">' + arr[i] +'</a></div>';
+        }
+        document.getElementById('courses').innerHTML = out;
+    }
+
+    displayCourses(cursos);
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 });
 
 
