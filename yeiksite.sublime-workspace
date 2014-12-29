@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"conta",
+				"contain"
+			],
+			[
+				"dark",
+				"dark-rojo"
+			],
+			[
 				"cu",
 				"cursos2"
 			],
@@ -195,7 +203,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2184,
+				"buffer_size": 2191,
 				"line_ending": "Windows"
 			}
 		},
@@ -203,7 +211,7 @@
 			"file": "start.html",
 			"settings":
 			{
-				"buffer_size": 2146,
+				"buffer_size": 2068,
 				"line_ending": "Windows"
 			}
 		},
@@ -219,7 +227,7 @@
 			"file": "styles/main.styl",
 			"settings":
 			{
-				"buffer_size": 4715,
+				"buffer_size": 4394,
 				"line_ending": "Windows"
 			}
 		},
@@ -227,7 +235,7 @@
 			"file": "scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 1338,
+				"buffer_size": 1331,
 				"line_ending": "Windows"
 			}
 		},
@@ -235,7 +243,7 @@
 			"file": "cursos/javaScript.html",
 			"settings":
 			{
-				"buffer_size": 2290,
+				"buffer_size": 2297,
 				"line_ending": "Windows",
 				"name": "javaScript.html"
 			}
@@ -382,15 +390,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 2184,
+						"buffer_size": 2191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1939,
-								1939
+								2102,
+								2052
 							]
 						],
 						"settings":
@@ -399,7 +407,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 738.0,
+						"translation.y": 909.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -409,15 +417,15 @@
 					"file": "start.html",
 					"settings":
 					{
-						"buffer_size": 2146,
+						"buffer_size": 2068,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1705,
-								1691
+								1979,
+								1929
 							]
 						],
 						"settings":
@@ -427,7 +435,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 588.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -462,15 +470,15 @@
 					"file": "styles/main.styl",
 					"settings":
 					{
-						"buffer_size": 4715,
+						"buffer_size": 4394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1696,
-								1696
+								1284,
+								1284
 							]
 						],
 						"settings":
@@ -479,7 +487,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2358.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -489,15 +497,15 @@
 					"file": "scripts/main.js",
 					"settings":
 					{
-						"buffer_size": 1338,
+						"buffer_size": 1331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								748,
-								748
+								84,
+								84
 							]
 						],
 						"settings":
@@ -507,7 +515,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 273.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -517,15 +525,15 @@
 					"file": "cursos/javaScript.html",
 					"settings":
 					{
-						"buffer_size": 2290,
+						"buffer_size": 2297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1605,
-								1605
+								2168,
+								2168
 							]
 						],
 						"settings":
@@ -535,7 +543,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 666.0,
+						"translation.y": 953.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

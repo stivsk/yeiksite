@@ -37,14 +37,15 @@ links = #3CE7BD
 dark-link = #43cdab
 verde = #5cbf9c
 t-white = rgba(255, 255, 255, .1)
+t-black = rgba(0,0,0,0.6)
 rojo = #FF4E50
 dark-rojo = #e34445
 
 *::-webkit-scrollbar
+	background-color t-black
 	width 6px
-	background-color #FCFCFC
 	&-track
-		background-color transparent
+		background-color t-black
 	&-thumb
 		background-color rojo
 
@@ -139,19 +140,22 @@ body
 	padding 27px
 	text-align center
 
-.c-title h2
-	color white
-	font-size 1.3em
-	font-weight lighter
-	letter-spacing 20px
-	padding 60px
-	text-align center
-	text-transform uppercase
+.c-title 
+	background t-black
+	h2 
+		color white
+		font-size 1.3em
+		font-weight lighter
+		letter-spacing 20px
+		padding 60px
+		text-align center
+		text-transform uppercase
 
 // D //
 // E //
 // F //
 footer
+	background t-black
 	color white
 	font-size .8em
 	letter-spacing 10px
