@@ -15,6 +15,10 @@ var cursos = ['javaScript','html5', 'ruby on rails','java','perl', 'php','ruby',
         document.getElementById('courses').innerHTML = out;
     }
     displayCourses(cursos);
+
+    $('#desk').click(function ocultar(){
+        cursos[3].style.display = 'none';
+    });
 ////////////////////////////////////////////////////////////////////////////////
 
     var disqus_shortname = 'yeiksite2'; 
