@@ -212,40 +212,23 @@
 			"settings":
 			{
 				"buffer_size": 2191,
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "start.html",
 			"settings":
 			{
-				"buffer_size": 2317,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "styles/main.styl",
-			"settings":
-			{
-				"buffer_size": 4832,
-				"line_ending": "Windows"
+				"buffer_size": 2313,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "cursos/javaScript.html",
 			"settings":
 			{
-				"buffer_size": 2276,
-				"line_ending": "Windows",
-				"name": "javaScript.html"
-			}
-		},
-		{
-			"file": "scripts/main.js",
-			"settings":
-			{
-				"buffer_size": 1426,
-				"line_ending": "Windows"
+				"buffer_size": 2272,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -253,7 +236,23 @@
 			"settings":
 			{
 				"buffer_size": 659,
-				"line_ending": "Windows"
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "styles/main.styl",
+			"settings":
+			{
+				"buffer_size": 4832,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 1426,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -301,6 +300,14 @@
 	},
 	"file_history":
 	[
+		"/opt/lampp/htdocs/yeiksite/cursos/javaScript.html",
+		"/opt/lampp/htdocs/yeiksite/start.html",
+		"/opt/lampp/htdocs/yeiksite/yeiksite.sublime-workspace",
+		"/opt/lampp/htdocs/yeiksite/yeiksite.sublime-project",
+		"/opt/lampp/htdocs/yeiksite/index.html",
+		"/opt/lampp/htdocs/yeiksite/styles/main.styl",
+		"/opt/lampp/htdocs/yeiksite/scripts/main.js",
+		"/opt/lampp/htdocs/yeiksite/cursos/main.js",
 		"/C/xampp/htdocs/yeiksite/styles/main.css",
 		"/C/Users/- Y E I S O N -/Documents/GitHub/spiwer/index.html",
 		"/C/Users/- Y E I S O N -/Documents/GitHub/yeiksite/index.html",
@@ -390,7 +397,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -405,8 +412,8 @@
 						"selection":
 						[
 							[
-								2102,
-								2052
+								270,
+								270
 							]
 						],
 						"settings":
@@ -415,7 +422,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 243.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -425,105 +432,21 @@
 					"file": "start.html",
 					"settings":
 					{
-						"buffer_size": 2317,
+						"buffer_size": 2313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1614,
-								1614
+								345,
+								345
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 396.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "styles/main.styl",
-					"settings":
-					{
-						"buffer_size": 4832,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2335,
-								2335
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2115.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "cursos/javaScript.html",
-					"settings":
-					{
-						"buffer_size": 2276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1655,
-								1655
-							]
-						],
-						"settings":
-						{
-							"auto_name": "javaScript.html",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 189.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "scripts/main.js",
-					"settings":
-					{
-						"buffer_size": 1426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								728,
-								728
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -532,7 +455,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 2,
+					"file": "cursos/javaScript.html",
+					"settings":
+					{
+						"buffer_size": 2272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "cursos/main.js",
 					"settings":
 					{
@@ -543,13 +493,68 @@
 						"selection":
 						[
 							[
-								92,
-								92
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "styles/main.styl",
+					"settings":
+					{
+						"buffer_size": 4832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scripts/main.js",
+					"settings":
+					{
+						"buffer_size": 1426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
