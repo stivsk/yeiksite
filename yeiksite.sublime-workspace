@@ -1,0 +1,606 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"java",
+				"javaScript"
+			],
+			[
+				"desk",
+				"desktop"
+			],
+			[
+				"de",
+				"desktop"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"r",
+				"rojo"
+			],
+			[
+				"t",
+				"t-black"
+			],
+			[
+				"conta",
+				"contain"
+			],
+			[
+				"dark",
+				"dark-rojo"
+			],
+			[
+				"cu",
+				"cursos2"
+			],
+			[
+				"ra",
+				"rails"
+			],
+			[
+				"co",
+				"courses"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"con",
+				"contain"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"gr",
+				"gris"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"has",
+				"hashLink"
+			],
+			[
+				"mo",
+				"modal-header"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"ho",
+				"hovact"
+			],
+			[
+				"wit",
+				"white"
+			],
+			[
+				"rg",
+				"rgba	rgba"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"he",
+				"height"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "start.html",
+			"settings":
+			{
+				"buffer_size": 2586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 1255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/desktop.html",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web.html",
+			"settings":
+			{
+				"buffer_size": 42,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/mobile.html",
+			"settings":
+			{
+				"buffer_size": 657,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/lampp/htdocs/yeiksite/index.html",
+		"/opt/lampp/htdocs/yeiksite/main.js",
+		"/opt/lampp/htdocs/yeiksite/pages/home.html",
+		"/opt/lampp/htdocs/yeiksite/pages/main.js",
+		"/opt/lampp/htdocs/plunk/pages/about.html",
+		"/opt/lampp/htdocs/plunk/script.js",
+		"/opt/lampp/htdocs/plunk/index.html",
+		"/opt/lampp/htdocs/yeiksite/cursos/main.js",
+		"/opt/lampp/htdocs/yeiksite/styles/main.styl",
+		"/opt/lampp/htdocs/yeiksite/cursos/javaScript.html",
+		"/opt/lampp/htdocs/yeiksite/start.html",
+		"/opt/lampp/htdocs/yeiksite/scripts/main.js",
+		"/opt/lampp/htdocs/yeiksite/yeiksite.sublime-workspace",
+		"/opt/lampp/htdocs/yeiksite/yeiksite.sublime-project",
+		"/C/xampp/htdocs/yeiksite/styles/main.css",
+		"/C/Users/- Y E I S O N -/Documents/GitHub/spiwer/index.html",
+		"/C/Users/- Y E I S O N -/Documents/GitHub/yeiksite/index.html",
+		"/C/Users/- Y E I S O N -/Documents/GitHub/yeiksite/styles/main.styl",
+		"/home/yeison/Documentos/- WEB -/sw8_v2.0/css/estilo.styl",
+		"/C/Users/- Y E I S O N -/Documents/GitHub/yeiksite/scripts/main.js",
+		"/home/yeison/Documentos/spiwer3.0/css/main.styl",
+		"/home/yeison/yeiksite/scripts/main.js",
+		"/home/yeison/yeiksite/js/main.js",
+		"/home/yeison/Documentos/spiwer3.0/index.html",
+		"/home/yeison/yeiksite/css/main.styl",
+		"/home/yeison/yeiksite/index.html",
+		"/home/yeison/yeiksite/css/main.css",
+		"/home/yeison/Documentos/spiwer3.0/js/main.js",
+		"/home/yeison/yeiksite/yeiksite.sublime-workspace",
+		"/opt/lampp/htdocs/spiwer3.0/new.txt",
+		"/opt/lampp/htdocs/spiwer3.0/ajax-test.html",
+		"/home/yeison/Documentos/spiwer3.0/css/main.css",
+		"/home/yeison/Documentos/spiwer3.0/ajax-test.html",
+		"/opt/lampp/htdocs/spiwer3.0/view/lorem.spw",
+		"/opt/lampp/htdocs/spiwer3.0/other.txt",
+		"/opt/lampp/htdocs/spiwer3.0/lorem.txt",
+		"/opt/lampp/htdocs/spiwer3.0/view/other.spw",
+		"/opt/lampp/htdocs/spiwer3.0/js/main.js~",
+		"/home/yeison/Documentos/spiwer3.0/lorem.txt",
+		"/home/yeison/Documentos/sw8_v2.0/index.html",
+		"/home/yeison/Documentos/FELIPEGUIRREDR/index.html",
+		"/home/yeison/Documentos/yeison/css/main.css",
+		"/home/yeison/Documentos/sw8_v2.0/css/estilo.styl",
+		"/home/yeison/Documentos/sw8_v2.0/js/main.js",
+		"/home/yeison/Documentos/code-life/css/main.styl",
+		"/home/yeison/Documentos/code-life/index.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"styles",
+			"font-family cantarell",
+			"font-family: 'Cantarell', sans-serif;",
+			" fade",
+			"\"></",
+			"(...),",
+			"#01b5ff",
+			"uppercase",
+			"info",
+			"default",
+			"key",
+			"@k",
+			"#00aced",
+			"hovact",
+			"15px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-family 'Cantarell'",
+			"",
+			"h-vink",
+			"default",
+			"info",
+			"h-vinc",
+			"link",
+			"bgcolor"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "start.html",
+					"settings":
+					{
+						"buffer_size": 2586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2538,
+								2538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "script.js",
+					"settings":
+					{
+						"buffer_size": 1255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1149,
+								1149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/desktop.html",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "pages/web.html",
+					"settings":
+					{
+						"buffer_size": 42,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "pages/mobile.html",
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true
+}
