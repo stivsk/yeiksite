@@ -21,6 +21,7 @@ vendor-prefixes ?= webkit moz official
 
 bgcolor(n)
 	background n
+	box-shadow 0px 5px 0px darken(n,8%)
 	&:hover
 		background lighten(n,10%)
 	&:active
@@ -37,9 +38,11 @@ links = #3CE7BD
 dark-link = #43cdab
 verde = #5cbf9c
 t-white = rgba(255, 255, 255, .1)
+dark-white = #ECECEC
 t-black = rgba(0,0,0,0.6)
 rojo = #FF4E50
 dark-rojo = #e34445
+azul = #3B8183
 
 *::-webkit-scrollbar
 	background-color t-black
@@ -79,7 +82,14 @@ body
 		&-rojo
 			bgcolor(rojo)
 			border none
-			box-shadow 0px 5px 0px dark-rojo
+		&-blanco
+			color gris 
+			bgcolor(white)
+			border none
+		&-azul
+			color white
+			bgcolor(azul)
+			border none			
 		
 			
 .bottom

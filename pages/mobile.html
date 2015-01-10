@@ -1,23 +1,21 @@
-<div class="c-title">
+<div class="v-title">
 	<h2>Moviles</h2>
 </div>
 
-<div id="courses" class="container-r btns top-60"></div>
 
 
-<script>
-$(document).ready(function(){
-	var cursos = ['javaScript','html5', 'ruby on rails','java','perl', 'php','ruby','Django','NodeJs'];
+<div class="container-r btns top-10">
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+    <a href="#" class="btn btn-azul bottom-10">EXAMPPLE</a>
+</div>
 
-    function displayCourses(arr){
-        var out = "";
-        var i;
-        for(i = 0; i < arr.length; i++){
-            out += '<div class="linkToCourse top-10">' +
-            '<a class="btn btn-green" href="cursos/' + arr[i].replace(/\s/g,'_') + '.html' + '">' + arr[i] +'</a></div>';
-        }
-        document.getElementById('courses').innerHTML = out;
-    }
-    displayCourses(cursos);
-)};
-</script>
