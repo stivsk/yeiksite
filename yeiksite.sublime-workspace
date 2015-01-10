@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"center"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
 				"java",
 				"javaScript"
 			],
@@ -22,10 +46,6 @@
 			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"a",
-				"absolute"
 			],
 			[
 				"r",
@@ -68,10 +88,6 @@
 				"font-weight"
 			],
 			[
-				"tex",
-				"text-transform"
-			],
-			[
 				"bac",
 				"background"
 			],
@@ -86,10 +102,6 @@
 			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"i",
@@ -114,10 +126,6 @@
 			[
 				"n",
 				"none"
-			],
-			[
-				"c",
-				"color"
 			],
 			[
 				"border",
@@ -162,10 +170,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"le",
-				"letter-spacing"
 			],
 			[
 				"u",
@@ -224,10 +228,26 @@
 			}
 		},
 		{
+			"file": "styles/main.styl",
+			"settings":
+			{
+				"buffer_size": 5556,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "script.js",
 			"settings":
 			{
 				"buffer_size": 1255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/home.html",
+			"settings":
+			{
+				"buffer_size": 1012,
 				"line_ending": "Unix"
 			}
 		},
@@ -403,7 +423,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -418,8 +438,8 @@
 						"selection":
 						[
 							[
-								2538,
-								2538
+								1664,
+								1664
 							]
 						],
 						"settings":
@@ -435,6 +455,33 @@
 				},
 				{
 					"buffer": 1,
+					"file": "styles/main.styl",
+					"settings":
+					{
+						"buffer_size": 5556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3661,
+								3661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2987.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "script.js",
 					"settings":
 					{
@@ -461,7 +508,34 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
+					"file": "pages/home.html",
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "pages/desktop.html",
 					"settings":
 					{
@@ -487,7 +561,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "pages/web.html",
 					"settings":
 					{
@@ -513,7 +587,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "pages/mobile.html",
 					"settings":
 					{
@@ -530,7 +604,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
